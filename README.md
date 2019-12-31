@@ -34,3 +34,29 @@ Functions that are provided automatically:
  - `log(a, b)` - returns logarithm of `a` by `b` base
  - `min(...)` - returns minimal of all passed arguments;
  - `max(...)` - returns maximum of all passed arguments;
+
+Binary operators (listed in the descendance of priority):
+ - `a ** b`, `a ^ b` - power operator;
+ - `a band b`, `a & b` - bit AND operator;
+ - `a bor b`, `a | b` - bit OR operator;
+ - `a xor b`, `a ~^ b` - bit XOR operator;
+ - `a shl b`, `a << b` - bit SHL operator (shift left);
+ - `a shr b`, `a >> b` - bit SHR operator (shift right);
+ - `a * b` - multiplication operator;
+ - `a / b` - division operator;
+ - `a div b`, `a // b` - floor division operator;
+ - `a updiv b`, `a /^ b` - ceil division operator;
+ - `a mod b`, `a % b` - modulo operator;
+ - `a + b` - addition operator;
+ - `a - b` - subtraction operator;
+ - `a == b`, `a != b` - equality comparison operators;
+ - `a > b`, `a >= b`, `a < b`, `a <= b` - comparison operators;
+ - `a and b`, `a && b` - boolean AND operator;
+ - `a or b`, `a || b` - boolean OR operator;
+ - `a xor b` - boolean XOR operator;
+ - `a = b` - assignment operator, `a` must be a variable (see variables format);
+ 
+Prefix operators:
+ - `-a` - unary minus operator;
+ - `bnot a`, `~a` - bit NOT operator;
+ - `not a`, `!a` - boolean NOT operator;
