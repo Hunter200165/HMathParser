@@ -1,6 +1,12 @@
 # HMathParser
 Mathematical parser and evaluator made in pure Lua
 
+# Licensing
+HMathParser uses its own license, which is similar to many others, but it forbids you to use this code in any proprietary or commercial software (including, but not limited to modification of code for commercial needs, including this code in commercial software and other) without explicit permission of creator. Usage in private commercial needs is not prohibited and not limited (if code is used in private needs without modification and/or distribution to the public).
+
+# Feedback
+This software is built as part of HFSoftware, and if you have any question or want to help with development - you could always join HFSoftware and talk to me (if I am not busy). The same is for any licensing questions - if you are not sure about what is the restrictions of license, feel free to ask. HFSoftware Discord server: https://discord.gg/dDzK7vS
+
 # Syntax
 
 HMathParser evaluates expressions based on AST (Abstract Syntax Tree). It supports enclosed expressions (using `()`), variables, binary and prefix operators, functions calls and other things.
